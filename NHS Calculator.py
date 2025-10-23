@@ -31,8 +31,9 @@ st.markdown(
     </p>
     """,
     unsafe_allow_html=True
-
+)
 3,172.38
 NHS Calculator
+
 
 
