@@ -2,15 +2,15 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="INSERT NAME OF CALCULATOR", layout="wide")
+st.set_page_config(page_title="NHS Calculator", layout="wide")
 
 st.image("Ambitions Public Sector Logo.png", width=240)
 st.markdown(
-    "<h1 style='font-size: 40px;'>INSERT NAME OF CALCULATOR</h1>",
+    "<h1 style='font-size: 40px;'>NHS Calculator</h1>",
     unsafe_allow_html=True
 )
 
-fixed_number = INSERT SAVINGS PER WORKER
+fixed_number = 3172.38
 
 st.markdown(
     '<p style="font-size:25px; margin: 0; line-height: 1.1;">Enter the quantity of workers:</p>',
@@ -34,4 +34,5 @@ st.markdown(
 
 3,172.38
 NHS Calculator
+
 
